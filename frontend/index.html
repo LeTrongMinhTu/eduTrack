@@ -22,29 +22,53 @@
     <section class="hero">
         <h1>Nền tảng quản lý lớp học thông minh</h1>
         <p>Giúp thầy cô theo dõi lớp học, học sinh và hoạt động học tập dễ dàng hơn</p>
-        <button>Bắt đầu sử dụng</button>
+        <a id = "intro" href = "#gioithieu"><button>Bắt đầu sử dụng</button></a>
     </section>
 
     <!-- FEATURES -->
-    <section class="features">
-        <div class="card">
-            <h3>📚 Quản lý lớp</h3>
-            <p>Tạo và quản lý nhiều lớp học khác nhau</p>
-        </div>
-        <div class="card">
-            <h3>👨‍🎓 Học sinh</h3>
-            <p>Lưu trữ thông tin và theo dõi tiến trình học</p>
-        </div>
-        <div class="card">
-            <h3>📊 Thống kê</h3>
-            <p>Xem báo cáo học tập trực quan</p>
-        </div>
+        <!--GIOITHIEU-->
+    <section id = "gioithieu" class="tinhnang">
+        <h2>Lời giới thiệu</h2>
+        <p>
+        EduTrack là một nền tảng hỗ trợ quản lý lớp học được xây dựng dành riêng cho giáo viên và nhà trường, giúp giáo viên theo dõi lớp học và học sinh một cách trực quan, khoa học và dễ sử dụng. Khác với các hệ thống quản lý truyền thống chỉ tập trung vào điểm số, EduTrack chú trọng vào quá trình học tập của từng học sinh, cho phép giáo viên quản lý thông tin lớp học, ghi chép nhật ký giảng dạy và theo dõi sự tiến bộ theo thời gian. Hệ thống hỗ trợ đánh dấu những học sinh cần quan tâm đặc biệt hoặc có sự tiến bộ nổi bật, đồng thời cung cấp các biểu đồ và thống kê giúp giáo viên dễ dàng đánh giá tình hình học tập của lớp. EduTrack được thiết kế với giao diện đơn giản, thân thiện và phù hợp với môi trường giáo dục, sử dụng màu sắc nhẹ nhàng để người dùng không bị rối mắt khi làm việc lâu dài. Trang web hướng đến việc giảm bớt áp lực hành chính cho giáo viên, từ đó giúp thầy cô tập trung nhiều hơn vào việc giảng dạy và hỗ trợ học sinh. Bên cạnh đó, EduTrack còn là một dự án học tập STEM mang tính thực tiễn cao, được xây dựng bằng các công nghệ web hiện đại và dễ mở rộng. Trong tương lai, hệ thống có thể phát triển thêm nhiều tính năng thông minh hơn với mục tiêu cuối cùng là góp phần nâng cao chất lượng quản lý và giáo dục, trở thành một công cụ hữu ích, gần gũi và thiết thực cho thầy cô giáo.
+        </p>
+    </section>
+        <!--QUANLILOP-->
+    <section id = "quanlilop" class = "tinhnang">
+        <h2>Quản lí lớp</h2>
+        <p>Quản lí lớp là môt chức năng quan trọng, cho phep thầy/cô xem được sơ đồ lớp học của lớp học.
+            Chỉ cần chọn lớp và khối, sơ đồ lớp sẽ hiện lên. Tuy nhiên, 1 lưu ý rằng, sơ đồ chỉ xuất hiện khi 
+            sơ đồ lớp được thêm vào bởi người quản tr. Đơn giản, thầy/cô giáo chỉ cần đưa cho người quản trị sơ đồ
+            lớp, người quản trị sẽ thêm vào sơ đồ
+        </p>
+        <select class = "chon-khoi-lop">
+            <h3>Chọn khối</h3>
+            <option value = "khoi6" selected>Khối 6</option>
+            <option value = "khoi7" selected>Khối 7</option>
+            <option value = "khoi8" selected>Khối 8</option>
+            <option value = "khoi9" selected>Khối 9</option>
+        </select>
+        <select class = "chon-khoi-lop">
+            <h3>Chọn lớp</h3>
+            <option value = "lop1" selected>/1</option>
+            <option value = "lop2" selected>/2</option>
+            <option value = "lop3" selected>/3</option>
+            <option value = "lop4" selected>/4</option>
+            <option value = "lop5" selected>/5</option>
+            <option value = "lop6" selected>/6</option>
+            <option value = "lop7" selected>/7</option>
+            <option value = "lop8" selected>/8</option>
+            <option value = "lop9" selected>/9</option>
+            <option value = "lop10" selected>/10</option>
+            <option value = "lop11" selected>/11</option>
+            <option value = "lop12" selected>/12</option>
+            <option value = "lop13" selected>/13</option>
+            <option value = "lop14" selected>/14</option>
+        </select>
     </section>
 
     <!-- FOOTER -->
-    <footer class="footer">
-        <p>© 2025 EduTrack | Dự án học tập STEM</p>
-    </footer>
+    
 
 </body>
 </html>

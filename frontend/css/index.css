@@ -54,7 +54,7 @@ body {
     margin-bottom: 25px;
 }
 
-.hero button {
+.hero a button {
     padding: 12px 25px;
     border: none;
     background-color: white;
@@ -64,35 +64,26 @@ body {
     cursor: pointer;
 }
 
-.hero button:hover {
+.hero a button:hover {
     background-color: #e3f2fd;
 }
-
-/* FEATURES */
-.features {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 60px 20px;
+#intro {
+    scroll-behavior: initial;
 }
-
-.card {
-    background-color: white;
-    padding: 25px;
-    width: 250px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    text-align: center;
+h2 {
+    font-size: 2rem;
+    padding: 10px;
 }
-
-.card h3 {
-    margin-bottom: 10px;
+p {
+    font-size: 1.2rem;
 }
-
-/* FOOTER */
-.footer {
-    background-color: #e0e0e0;
-    text-align: center;
-    padding: 15px;
-    font-size: 14px;
+.tinhnang {
+    padding: 30px;
+    margin: 10px;
+}
+.chon-khoi-lop {
+    width: 40vw;
+    height: 5vh;
+    background-color: rgb(18, 9, 9);
+    color: white;
 }
